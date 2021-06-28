@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.uiBarChart1 = new Sunny.UI.UIBarChart();
+            this.uiButton1 = new Sunny.UI.UIButton();
             this.SuspendLayout();
             // 
             // uiBarChart1
@@ -43,11 +44,23 @@
             this.uiBarChart1.TabIndex = 0;
             this.uiBarChart1.Text = "uiBarChart1";
             // 
+            // uiButton1
+            // 
+            this.uiButton1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.uiButton1.Font = new System.Drawing.Font("微软雅黑", 12F);
+            this.uiButton1.Location = new System.Drawing.Point(654, 150);
+            this.uiButton1.MinimumSize = new System.Drawing.Size(1, 1);
+            this.uiButton1.Name = "uiButton1";
+            this.uiButton1.Size = new System.Drawing.Size(100, 35);
+            this.uiButton1.TabIndex = 1;
+            this.uiButton1.Text = "uiButton1";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.uiButton1);
             this.Controls.Add(this.uiBarChart1);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -58,6 +71,7 @@
         #endregion
 
         private Sunny.UI.UIBarChart uiBarChart1;
+        private Sunny.UI.UIButton uiButton1;
     }
 }
 

@@ -28,13 +28,36 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.uiBarChart1 = new Sunny.UI.UIBarChart();
+            this.SuspendLayout();
+            // 
+            // uiBarChart1
+            // 
+            this.uiBarChart1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(244)))));
+            this.uiBarChart1.Font = new System.Drawing.Font("微软雅黑", 12F);
+            this.uiBarChart1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(54)))));
+            this.uiBarChart1.Location = new System.Drawing.Point(189, 49);
+            this.uiBarChart1.MinimumSize = new System.Drawing.Size(1, 1);
+            this.uiBarChart1.Name = "uiBarChart1";
+            this.uiBarChart1.Size = new System.Drawing.Size(400, 300);
+            this.uiBarChart1.TabIndex = 0;
+            this.uiBarChart1.Text = "uiBarChart1";
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.uiBarChart1);
+            this.Name = "Form1";
             this.Text = "Form1";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private Sunny.UI.UIBarChart uiBarChart1;
     }
 }
 
